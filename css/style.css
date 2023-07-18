@@ -1,3 +1,6 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
 @import url(https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300;400;500;700&family=Rubik:wght@300;400;500&display=swap);@import url(../fonts/gilroy/fonts.css);@import url(../fonts/gordita/stylesheet.css);@import url(../fonts/recoleta/stylesheet.css);@import url(../vendor/bootstrap/css/bootstrap.min.css);@import url(framework.css);@import url(../vendor/mega-menu/assets/css/menu.css);@import url(../vendor/slick/slick.css);@import url(../fonts/font-awesome/css/font-awesome.min.css);@import url(../vendor/animate.min.css);@import url(../vendor/aos-next/dist/aos.css);@import url(../vendor/fancybox/dist/jquery.fancybox.min.css);@import url(../fonts/icon/font/flaticon.css);@import url(custom-animation.css);.title-style-three p,.title-style-two p {
     letter-spacing: 1.12px;
     text-transform: uppercase

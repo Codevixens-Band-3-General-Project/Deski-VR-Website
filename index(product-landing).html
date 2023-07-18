@@ -30,19 +30,18 @@
       </div>
         <!--Mobile menu button-->
         
-          <div class="d-lg-none d-md-none user-mobile">
+          <div class="d-lg-none user-mobile">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
           </svg>
         </div>
         <div class="mobileMenu">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button id="navbarToggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
         </button>
-       
-        </div>
+       </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-lg-0">
             <li class="nav-item dropdown px-3">
               <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Home
@@ -83,8 +82,10 @@
               <a class="nav-link" href="#feedback">Feedback</a>
             </li>
           </ul>
-          <button class="btn btn-outline-dark requestModal p-3" type="submit">Request A Demo</button>
+          
         </div>
+        <button class="btn btn-outline-dark requestModal p-3" 
+        type="submit">Request A Demo</button>
       </div>
     </nav>
   </header>
@@ -570,10 +571,8 @@
               <span>13,000+</span> Clients love <br> Our product
               </h2>
           </div>
-          <div class="row pt-4">
-            <div id="testimonialContainer">
-
-            </div>
+          <div class="row pt-4" id="testimonialContainer">
+            
           </div>
           <ul class="testimonial-slider justify-content-center align-content-center">
             <li><i class="bi bi-circle"></i></li>
@@ -648,6 +647,13 @@
     <i class="fa-solid fa-angle-up"></i>
   </button>
 
+
+  <script>
+    const navbarToggler = document.getElementsByClassName('navbarToggler');
+    navbarToggler.onclick = function(){
+      navbarToggler.classList.toggle('active');
+    }
+  </script>
   <!--Pricing Tab Select-->
   <script>
     function changeTab(tabIndex) {
