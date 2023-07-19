@@ -149,14 +149,14 @@
     <div class="clients-text hero-text">
       <p>Over <strong>32k+</strong> businesses growing with Deski</p>
     </div>
-    <div class="d-flex flex-column flex-lg-row clients-img">
+    <!-- <div class="d-flex flex-column flex-lg-row clients-img"> -->
       <div class="slider">
-        <img src="./Assets/google-logo-12.png" class="d-block w-20" alt="...">
-        <img src="./Assets/hello-logo-13.png" class="d-block w-20" alt="...">
-        <img src="./Assets/vine-logo-15.png" class="d-block w-20" alt="...">
-        <img src="./Assets/vanguard-logo-16.png" class="d-block w-20" alt="...">
+        <img src="./Assets/google-logo-12.png"  alt="...">
+        <img src="./Assets/hello-logo-13.png"  alt="...">
+        <img src="./Assets/vine-logo-15.png"  alt="...">
+        <img src="./Assets/vanguard-logo-16.png"  alt="...">
       </div>
-    </div>
+    <!-- </div> -->
   </div>
       </div>
     </section>
@@ -687,29 +687,6 @@ scrollToUpBtn.addEventListener('click', () => {
 
   </script>
   <!--Counters-->
-  let jobs = setInterval(updated);
-  let millions = setInterval(updated);
-  let used = setInterval(updated);
-  let upto = 0;
-  function updated() {
-      let job = document.getElementById("jobs");
-      let million = document.getElementById("million");
-      let use = document.getElementById("using");
-      job.innerHTML = --upto;
-      if (upto === 3) {
-          clearInterval(totalItems);
-      }
-      million.innerHTML = --upto;
-      if(upto === 20){
-          clearInterval(totalOwners);
-      }
-      use.innerHTML = --upto;
-      if(upto === 3000){
-          clearInterval(price);
-      }
-      
-  }
-</script> -->
 <script>
   let jobsInterval;
   let millionsInterval;

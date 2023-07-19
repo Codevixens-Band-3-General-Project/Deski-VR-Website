@@ -60,7 +60,7 @@ a{
 }
 
 .container-fluid{
-  padding: 8% 5% 8% 5%;
+  padding: 3% 2% 3% 2%;
  
 }
 /* 
@@ -310,14 +310,23 @@ span.text-start.download{
 }
 
 .slick-slider {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
+}
+
+
+.slick-slide img {
+  max-width: 100px;
+}
+.slick-slide img {
+  margin: 5px;
 }
 
 .slick-prev,
 .slick-next{
-  display: none;
+  display: none !important;
 }
+
 /*Features*/
 .features-container,
 .about-container
