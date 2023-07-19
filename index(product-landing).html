@@ -687,29 +687,6 @@ scrollToUpBtn.addEventListener('click', () => {
 
   </script>
   <!--Counters-->
-  let jobs = setInterval(updated);
-  let millions = setInterval(updated);
-  let used = setInterval(updated);
-  let upto = 0;
-  function updated() {
-      let job = document.getElementById("jobs");
-      let million = document.getElementById("million");
-      let use = document.getElementById("using");
-      job.innerHTML = --upto;
-      if (upto === 3) {
-          clearInterval(totalItems);
-      }
-      million.innerHTML = --upto;
-      if(upto === 20){
-          clearInterval(totalOwners);
-      }
-      use.innerHTML = --upto;
-      if(upto === 3000){
-          clearInterval(price);
-      }
-      
-  }
-</script> -->
 <script>
   let jobsInterval;
   let millionsInterval;
