@@ -266,10 +266,11 @@ body {
     background-color: #ddd;
     color: black;
   }
-  .active {
-    background-color: #04AA6D;
-    color: white;
-  }
+ 
+
+.navbar-nav a.active {
+    text-decoration: underline;
+  } 
   
 .fancy-hero-one h2,.h1,h1 {
     font-size: 80px;
