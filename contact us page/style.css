@@ -34,7 +34,7 @@ section{
 
 }
 #col1{
-    background-image: url(../images/assets/ils_18.svg);
+    background-image: url(.//images/ils_18.svg);
     background-repeat: no-repeat;
     background-size:contain;
     background-position: bottom;
