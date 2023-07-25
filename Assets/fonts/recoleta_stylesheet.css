@@ -1,0 +1,16 @@
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('Recoleta-Regular.eot');
+    src: local('Recoleta Regular'), local('Recoleta-Regular'),
+        url('Recoleta-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./Recoleta-Regular.woff2') format('woff2');
+        /* url('./Recoleta-RegularDEMO.woff') format('woff'); */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
