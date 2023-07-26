@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Contact us </title>
+</head>
+<body>
+    <section>
+        <div id="container">
+            <div id="col1">
+                <blockquote>"I never dreamed about <br> success. I worked for it.,, </blockquote>
+                <p>—Estée Lauder</p>
+    
+            </div>
+            <div id="formContainer">
+                <img src="../contact us page/images/close.svg" alt="" id="myImg">
+                <form action="" id="myForm">
+                    <h4>Contact us</h4>
+                    <label for="name">Name</label><br>
+                    <input type="text" id="inputName" placeholder="Your Name" required onclick="this.placeholder='' ">
+                    <span id="nameError" class="error-message"></span><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="inputEmail" placeholder="Email Adress" required onclick="this.placeholder='' ">
+                    <span id="emailError" class="error-message"></span><br>
+                    <textarea name="message" id="message" cols="30" rows="10" onclick="this.innerHTML= '' ">Your Message</textarea>
+                    <span id="messageError" class="error-message"></span>
+                    <input type="button" value="Send Message" id="submit">
+                    <span id="messageSuccess" class="messageSuccess">Form Submitted Successfully.</span>
+                    
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
